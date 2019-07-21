@@ -34,19 +34,19 @@ board with each block filled with its colour. A block consists of two space char
 colour. A Ruby Gem is used to colourise the text.
 
 Beneath the board, the following messages are included:
-• “Turns: X”: This shows the number of turns completed by the player.
-• “Current completion: X%”: This shows the percentage of the board that is coloured with the
+* “Turns: X”: This shows the number of turns completed by the player.
+* “Current completion: X%”: This shows the percentage of the board that is coloured with the
 same colour as the currently selected colour as an integer number.
-• “Choose a colour: ”: This prompts the player to enter a letter for the next colour
+* “Choose a colour: ”: This prompts the player to enter a letter for the next colour
 Each turn of the game consists of the player choosing a colour by typing the starting letter of the colour
 followed by the “enter” key: r → red, g → green, b → blue, y → yellow, m → magenta, c → cyan. In
 addition, typing “q” takes the player back to the main menu.
-2
+
 The gameplay works as follows:
-• The selected group initially consists of the top left block, and all neighbouring blocks (i.e., left,
+* The selected group initially consists of the top left block, and all neighbouring blocks (i.e., left,
 right, top, bottom) with the same colour as this block.
-• Every time the player enters a colour, all blocks of the current group are changed to that colour.
-• In addition, all blocks neighbouring the group that also have this colour are now part of the group.
+* Every time the player enters a colour, all blocks of the current group are changed to that colour.
+* In addition, all blocks neighbouring the group that also have this colour are now part of the group.
 When all blocks of the board have the same colour, the message “You won after X turns” is printed,
 where “X” represents the number of turns. The player has to confirm by hitting “enter”,
 then the game returns to the main menu. If the number of turns achieved in a game is lower than in
