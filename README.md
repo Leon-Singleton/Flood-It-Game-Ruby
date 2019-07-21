@@ -54,7 +54,8 @@ previous games, then the best score in the main menu now shows the updated value
 
 ## Execution
 
-1. With a ruby enabled terminator emulator run the command 'ruby floodit.rb'.
-2. Follow the on-screen instructions and aforementioned gameplay instructions to play.
+1. With a ruby enabled terminator emulator run the command 'bundle install' to install all of the gem dependencies
+2. With a ruby enabled terminator emulator run the command'ruby floodit.rb' to begin the game.
+3. Follow the on-screen instructions and aforementioned gameplay instructions to play.
 
 
