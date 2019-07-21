@@ -8,7 +8,7 @@ sharing the same colour merge to form a group. The player then iteratively selec
 group changes to that colour and merges with all neighbouring blocks of the same colour. The game is
 over when all blocks have the same colour. The fewer turns the player needs to do this, the better.
 
-You can try out a variant of the game online: [](http://unixpapa.com/floodit/) 
+You can try out a variant of the game online: (http://unixpapa.com/floodit/) 
 
 When the program is started, it shows a splashscreen announcing various details about the game. After the splashscreen the main menu is entered with the three options start, change size, and quit. The current best game score
 achieved so far is also presented. The following commands apply:
