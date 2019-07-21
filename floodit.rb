@@ -4,7 +4,6 @@ def display_splash()
   system "clear"
   require 'console_splash'
   #using the methods provided by the i ahve created a customized splashe screen
-  splash = ConsoleSplash.new()
   splash = ConsoleSplash.new(15, 50)
   splash.write_header("Welcome to Flood-It", "Leon Singleton", "1.0")
   splash.write_center(-3, "<Press enter to continue>")
